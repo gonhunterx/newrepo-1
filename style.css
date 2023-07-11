@@ -59,9 +59,17 @@ li a:hover {
     outline: none;
     cursor: pointer;
     transition: 0.5s;
+    margin-bottom: 5px;
+    margin-top: 50px;
 }
 .button:hover {
     background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
     color: #fff;
     box-shadow: black 0px 0px 10px;
+}
+#highScore {
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
 }
