@@ -4,6 +4,9 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
@@ -11,11 +14,28 @@ body {
 .header {
     width: 100%;
     text-align: center;
+    margin-top: 25px;
+    background: linear-gradient(to right, #3bbbe6 0%, #ee71b0 100%);
+}
+.header img {
+    float: left;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
+.header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+.logo {
+    display: flex;
+    display: inline;
 }
 li {
     list-style: none;
     float: left;
-    margin-top: 15px;
+    margin-top: px;
     margin-left: 5px;
     display: block;
 }
@@ -33,7 +53,6 @@ li a {
     border-radius: 20px;
     transition: 0.5s;
     cursor: pointer;
-    border: black 1px solid;
     display: inline-block;
 }
 li a:hover {
@@ -72,4 +91,15 @@ li a:hover {
     font-size: 20px;
     font-weight: 600;
     color: #fff;
+}
+#form-1{
+    text-align: center;
+    padding: 50px;
+}
+footer {
+    bottom: 0;
+    text-align: center;
+}
+.select {
+    border-radius: 5px;
 }
